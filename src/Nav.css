@@ -1,0 +1,60 @@
+:root {
+  --bg-page:    #171438;
+  --bg-card:    #221E4F;
+  --bg-pill:    #3A3480;
+  --border:     #383261;
+
+  --accent:     #C8B99C;  /* your existing tan, slightly warmed */
+  --text-head:  #EDEAF7;
+  --text-body:  #CFCBEA;
+  --text-muted: #8B86B8;
+}
+
+#navigation{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 80vh;
+    margin-top : 5vh;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#name{
+    font-size: 40px;
+    color : var(--accent);
+}
+
+#proffesion{
+    font-size : 16px;
+    color : var(--text-body);
+}
+
+#occupation{
+    font-size : 12px;
+    color : var(--text-body);
+}
+
+.nav-contents li{
+    text-align : left;
+}
+
+.links{
+    display : flex;
+    flex-direction : row;
+}
+
+.link-media {
+    margin-right : 5px;
+}
+
+.link-media img{
+    width : 32px;
+    height: 32px;
+}

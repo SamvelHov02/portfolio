@@ -1,0 +1,50 @@
+:root {
+  --bg-page:    #171438;
+  --bg-card:    #221E4F;
+  --bg-pill:    #3A3480;
+  --border:     #383261;
+
+  --accent:     #C8B99C;  /* your existing tan, slightly warmed */
+  --text-head:  #EDEAF7;
+  --text-body:  #CFCBEA;
+  --text-muted: #8B86B8;
+}
+
+.project-item{
+    width : 85%;
+    border-radius: 10px;
+    background-color: var(--bg-card);
+    padding: 0px 0px 10px 5px;
+    border: 2px solid var(--border);
+    cursor: pointer;
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.project-item:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.project-title{
+   text-align: center; 
+   font-size: 30px;
+   color: #9b9b9b;
+}
+
+.project-description {
+    font-size : 14px;
+}
+
+.project-tags{
+    display: flex;
+}
+
+.tag {
+    margin-left: 10px;
+    font-size : 10px;
+    background-color: var(--bg-pill);
+    border-radius: 20px;
+    min-width: 8rem;
+    padding : 0.5rem 1rem;
+    text-align: center;
+}
