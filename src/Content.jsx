@@ -7,7 +7,7 @@ function Content({ data }){
     return (
         <section className='main-content'>
             <section className='section-about'>
-                {data["about"]}
+                {data["about"].map((par, i) => <p key={i}> {par}</p>)}
             </section>
             <section className='section-projects'>
                 {projects.map(p => <Item project={p} />)}
